@@ -1,7 +1,4 @@
  let h;
- /*let thumbNail = document.createElement('img');
- thumbNail.src = 'thumbnail.png';
- thumbNail.classList.add('thumb-nail');*/
  
 let homePage = document.createElement('div');
 homePage.classList.add('home-page');
@@ -15,7 +12,7 @@ selectTime.classList.add('select-time');
 homeBox.appendChild(selectTime);
 //thumbNail.appendChild(selectTime);
 
-const availableTime = ['Select ',0.05,2,5];
+const availableTime = ['Select ',1,2,5];
 
 selectTime.addEventListener('click',tested)
 for (var i = 0; i < availableTime.length; i++){
