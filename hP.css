@@ -160,11 +160,12 @@ ul{
 	font-weight: bold;
 	font-family: Georgia, sans-serif;
 }
-.instagram {
-	background: linear-gradient(to right, #FF16D7, #FFAF00);
-}
 .youTube {
 	background: red;
+}
+
+.instagram {
+	background: linear-gradient(to right, #FF16D7, #FFAF00);
 }
 
 @keyframes fade {
