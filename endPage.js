@@ -74,7 +74,7 @@ instagram.textContent = 'Instagram';
 
 let youTube = document.createElement('a');
 youTube.href = 'https://youtube.com/@Rahul.chandravanshi_0';
-youTube.classList.add('youtube')
+youTube.classList.add('youTube')
 youTube.textContent = 'YouTube';
 
 popUp.appendChild(instagram);
